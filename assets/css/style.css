@@ -929,7 +929,6 @@ h6.footer-heading {
 
     body,
     p {
-        font-size: 12px;
         line-height: 22px;
     }
 
@@ -948,6 +947,12 @@ h6.footer-heading {
     .mock-hide,
     p br {
         display: none;
+    }
+    .mb-5, .my-5 {
+        margin-bottom: 2rem!important;
+    }
+    .mb-4, .my-4 {
+        margin-bottom: 0.5rem!important;
     }
     .navbar {
         padding: 0;
